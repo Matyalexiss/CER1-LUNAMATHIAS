@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividades</title>
+    
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+    <div class="container-fluid px-0">
+        <header class="row monserrat">
+            <img src="img/logo.jpg" alt="Logo" class="col-2 logo mx-auto d-block mx-md-0"> 
+            <h1 id="titulo" class="col-10 invertircolor text-md-left">Centro Cultural Puerto Abierto</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand invertircolor" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link invertircolor" href="cartelera.html">Cartelera</a>
+                    <a class="nav-link invertircolor" href="actividades.html">Actividades</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <article class="row">
+            <section class="col-sm-12 col-md-6">
+                <img id="banner1"src="img/banner1.jpg" alt="Banner1">
+            </section>
+            <section class="col-sm-12 col-md-6 texto-centrado">
+                <h3 class="monserrat">Bienvenidos al Centro Cultural Puerto Abierto</h3>
+                <p class="raleway">El Centro Cultural Puerto Abierto es una organización dedicada a promover actividades artísticas, culturales y educativas para la comunidad. Durante los últimos años ha ampliado su oferta de talleres, exposiciones, presentaciones y otras actividades abiertas al público.
+                </p>
+            </section>
+            <section class="col-12 centro">
+                <h2 id="actividades" class="monserrat">Actividades destacadas</h2>
+            </section>
+            <section class="col-sm-12 col-md-6">
+                <h2 class="monserrat centro">Arte</h2>
+                <img id="arte"src="img/banner3.jpg" alt="Dibujo">
+            </section>
+            <section class="col-sm-12 col-md-6">
+                <h2 class="monserrat centro">Manualidades</h2>
+                <img id="artesania" src="img/actividades3.jpg" alt="Artesania">
+            </section>
+        </article>
+        <footer class="row">
+            <div class="col-6 raleway">
+                <h2>Informacion de contacto</h2>
+                <p>Dirección: Calle Falsa 123, Valparaiso, Chile</p>
+                <p>Teléfono: +56 9 XXXX XXXX</p>
+                <p>Correo electrónico: info@centroculturalpuertoabierto.cl</p>
+            </div>
+            <div class="col-6 raleway">
+                <h2>Horario de atención</h2>
+                <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
+                <p>Sábados: 10:00 AM - 2:00 PM</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </body>
 </html>
