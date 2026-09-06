@@ -113,3 +113,16 @@ h1{
     height: 800px;
     margin: 0;
 }
+#inscripcion-actividades{
+    padding-left:30px;
+    padding-bottom: 10px;
+    width: 100vw;
+}
+#titulo-actividades{
+    padding-left: 20px;
+}
+.condiciones{
+    padding-left:30px;
+    padding-bottom: 10px;
+    width: 100vw;
+}
