@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="container-fluid px-0">
-        <header class="row monserrat">
+    <div class="container-fluid px-0 ">
+        <header class="row monserrat m-0">
             <img src="img/logo.jpg" alt="Logo" class="col-2 logo mx-auto d-block mx-md-0"> 
             <h1 id="titulo" class="col-10 invertircolor text-md-left">Centro Cultural Puerto Abierto</h1>
         </header>
@@ -27,33 +27,100 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link invertircolor" href="cartelera.html">Cartelera</a>
-                    <a class="nav-link invertircolor" href="actividades.html">Actividades</a>
+                    <a class="nav-link invertircolor" href="actividades.html">Inscripción a Actividades</a>
                 </div>
                 </div>
             </div>
         </nav>
         <article class="row">
-            <section class="col-sm-12 col-md-6">
-                <img id="banner1"src="img/banner1.jpg" alt="Banner1">
-            </section>
-            <section class="col-sm-12 col-md-6 texto-centrado">
-                <h3 class="monserrat">Bienvenidos al Centro Cultural Puerto Abierto</h3>
-                <p class="raleway">El Centro Cultural Puerto Abierto es una organización dedicada a promover actividades artísticas, culturales y educativas para la comunidad. Durante los últimos años ha ampliado su oferta de talleres, exposiciones, presentaciones y otras actividades abiertas al público.
+            <section class="col-12">
+                <p> 
+                    <h2 id="titulocartelera">Cartelera de Actividades</h2>
                 </p>
             </section>
-            <section class="col-12 centro">
-                <h2 id="actividades" class="monserrat">Actividades destacadas</h2>
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mandalas</h5>
+                        <p class="card-text">Actividad para todos los públicos incentivando las manualidades</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Manualidades</li>
+                        <li class="list-group-item">Fecha: 15 de julio 2026</li>
+                    </ul>
+                </div>
             </section>
-            <section class="col-sm-12 col-md-6">
-                <h2 class="monserrat centro">Arte</h2>
-                <img id="arte"src="img/banner3.jpg" alt="Dibujo">
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Atrapasueños</h5>
+                        <p class="card-text">Actividad para los jovenes con el fin de crear un atrapasueños casero</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Manualidades</li>
+                        <li class="list-group-item">Fecha: 11 de agosto 2026</li>
+                    </ul>
+                </div>
             </section>
-            <section class="col-sm-12 col-md-6">
-                <h2 class="monserrat centro">Manualidades</h2>
-                <img id="artesania" src="img/actividades3.jpg" alt="Artesania">
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Feria Guasu</h5>
+                        <p class="card-text">Feria ubicada en el centro de valparaiso con un sin fin de actividades recreativas</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Feria</li>
+                        <li class="list-group-item">Fecha: 30 de agosto 2026</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Concierto urbano</h5>
+                        <p class="card-text">Apoyo a bandas urbanas en el centro de la ciudad con puertas abiertas para todo publico</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Concierto</li>
+                        <li class="list-group-item">Fecha: 5 de septiembre 2026</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciclismo</h5>
+                        <p class="card-text">Viaje de hacia Avda. Stella Maris saliendo del Puerto hacia Sajonia, invitacion a todo publico.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Deportes</li>
+                        <li class="list-group-item">Fecha: 30 de septiembre 2026</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-sm-12 col-md-4 cartelera">
+                <div class="card">
+                    <img src="img/actividades7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Competencia de baile</h5>
+                        <p class="card-text">Invitación a jóvenes para participar en una competencia de baile antes de las fiestas patrias</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Categoria: Manualidades</li>
+                        <li class="list-group-item">Fecha: 14 de septiembre 2026</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-12 ">
+                <img id="actividad-acceso-libre" src="img/actividades.jpg" alt="">
             </section>
         </article>
-        <footer class="row">
+        <footer class="row m-0">
             <div class="col-6 raleway">
                 <h2>Informacion de contacto</h2>
                 <p>Dirección: Calle Falsa 123, Valparaiso, Chile</p>

@@ -1,13 +1,17 @@
 header{
     background-color: #689F38;
+    width: 100vw;
 }
 article{
+    width: 100vw;
     background-color: #DCEDC8;
 }
 footer{
+    width: 100vw;
     background-color: #9fda5c;
 }
 nav{
+    width: 100vw;
     margin:0;
     padding: 0;
     background-color: #008493;
@@ -44,6 +48,14 @@ h1{
 .centro{
     text-align: center;
 }
+.separador{
+    border: none;               
+    height: 4px;              
+    width: 60%;                
+    max-width: 1000px;    
+    margin: 40px auto;          
+    border-radius: 2px; 
+}
 .texto-centrado{
     display:flex;
     flex-direction: column;
@@ -52,6 +64,20 @@ h1{
     padding: 20px;
     font-size: 18px;
 }
+.invertircolor{
+    filter:invert();
+}
+.cartelera {
+    max-width: 450px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cartelera img {
+    width: 100%;
+    height: 250px;
+}
+
 #banner1{
     width: 100%;
     height: 400px;
@@ -59,9 +85,6 @@ h1{
 #actividades{
     padding-top: 20px;
     font-style: italic;
-}
-.invertircolor{
-    filter:invert();
 }
 #arte{
     width: 100%;
@@ -78,4 +101,15 @@ h1{
     font-size: 30px;
     font-weight: 700;
     padding-top: 32px;
+}
+#titulocartelera{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 55px;
+}
+#actividad-acceso-libre{
+    width: 100vw;
+    height: 800px;
+    margin: 0;
 }

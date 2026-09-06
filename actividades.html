@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividades</title>
+    <title>Cartelera</title>
     
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="container-fluid px-0">
-        <header class="row monserrat">
+    <div class="container-fluid px-0 ">
+        <header class="row monserrat m-0">
             <img src="img/logo.jpg" alt="Logo" class="col-2 logo mx-auto d-block mx-md-0"> 
             <h1 id="titulo" class="col-10 invertircolor text-md-left">Centro Cultural Puerto Abierto</h1>
         </header>
@@ -33,27 +33,28 @@
             </div>
         </nav>
         <article class="row">
-            <section class="col-sm-12 col-md-6">
-                <img id="banner1"src="img/banner1.jpg" alt="Banner1">
-            </section>
-            <section class="col-sm-12 col-md-6 texto-centrado">
-                <h3 class="monserrat">Bienvenidos al Centro Cultural Puerto Abierto</h3>
-                <p class="raleway">El Centro Cultural Puerto Abierto es una organización dedicada a promover actividades artísticas, culturales y educativas para la comunidad. Durante los últimos años ha ampliado su oferta de talleres, exposiciones, presentaciones y otras actividades abiertas al público.
+            <section class="col-12">
+                <p> 
+                    <h2>Inscripción a Actividades</h2>
                 </p>
             </section>
-            <section class="col-12 centro">
-                <h2 id="actividades" class="monserrat">Actividades destacadas</h2>
+            <section>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Inscribirse</button>
+                </form>
             </section>
-            <section class="col-sm-12 col-md-6">
-                <h2 class="monserrat centro">Arte</h2>
-                <img id="arte"src="img/banner3.jpg" alt="Dibujo">
-            </section>
-            <section class="col-sm-12 col-md-6">
-                <h2 class="monserrat centro">Manualidades</h2>
-                <img id="artesania" src="img/actividades3.jpg" alt="Artesania">
-            </section>
+            
         </article>
-        <footer class="row">
+        <footer class="row m-0">
             <div class="col-6 raleway">
                 <h2>Informacion de contacto</h2>
                 <p>Dirección: Calle Falsa 123, Valparaiso, Chile</p>
