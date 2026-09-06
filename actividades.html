@@ -26,35 +26,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link invertircolor" href="cartelera.html">Cartelera</a>
+                    <a class="nav-link invertircolor" href="cartelera.html">Cartelera de actividades</a>
                     <a class="nav-link invertircolor" href="actividades.html">Inscripción a Actividades</a>
                 </div>
                 </div>
             </div>
         </nav>
         <article class="row">
-            <section class="col-12">
-                <p> 
-                    <h2 id="titulo-actividades"class="monserrat">Inscripción a Actividades</h2>
-                </p>
-            </section>
-            <section id="inscripcion-actividades">
+            <section class="col-12 " id="inscripcion-actividades">
+                <h2 id="titulo-actividades"class="monserrat">Inscripción a Actividades</h2>
+                <p class="monserrat">Por favor, ingrese todos los datos solicitados y acepte la condicion de participacion.</p>
                 <form action="exito.html" class="raleway">
                     <div class="mb-3">
-                        <label for="Nombre-completo" class="form-label">Nombre completo</label>
+                        <label for="Nombre-completo" class="form-label monserrat">Nombre completo</label>
                         <input type="text" class="form-control" id="Nombre-completo" aria-describedby="emailHelp" required>
                     </div>
                     
                     <div class="mb-3">
-                        <label for="Correo" class="form-label">Correo electronico</label>
+                        <label for="Correo" class="form-label monserrat">Correo electronico</label>
                         <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Telefono" class="form-label">Telefono</label>
+                        <label for="Telefono" class="form-label monserrat">Telefono</label>
                         <input type="text" class="form-control" id="Telefono" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Actividad-interes" class="form-label">Actividad de interés</label>
+                        <label for="Actividad-interes" class="form-label monserrat">Actividad de interés</label>
                         <select class="form-select" aria-label="Default select example" required>
                             <option selected>Seleccione una actividad</option>
                             <option value="1">Mandalas</option>
@@ -66,30 +63,33 @@
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="Edad" class="form-label">Edad</label>
+                        <label for="Edad" class="form-label monserrat">Edad</label>
                         <input type="text" class="form-control" id="Edad" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Comentarios" class="form-label">Comentarios adicionales</label>
+                        <label for="Comentarios" class="form-label monserrat">Comentarios adicionales</label>
                         <textarea class="form-control" id="Comentarios" rows="3"></textarea>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="terminos" required>
-                        <label class="form-check-label" for="terminos">Acepto las <a href="condiciones.html" target="_blank" class="link-primary">condiciones</a> de participacion</label>
+                        <label class="form-check-label monserrat" for="terminos">Acepto las <a href="condiciones.html" target="_blank" class="link-primary">condiciones</a> de participacion</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Inscribirse</button>
+                    <button type="submit" class="btn btn-warning">Inscribirse</button>
                 </form>
             </section>
-            
         </article>
-        <footer class="row m-0">
-            <div class="col-6 raleway">
+        <footer class="row m-0 px-0">
+            <div class="col-12 col-md-5 raleway">
                 <h2>Informacion de contacto</h2>
                 <p>Dirección: Calle Falsa 123, Valparaiso, Chile</p>
                 <p>Teléfono: +56 9 XXXX XXXX</p>
                 <p>Correo electrónico: info@centroculturalpuertoabierto.cl</p>
             </div>
-            <div class="col-6 raleway">
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                <img class="separador-vertical d-none d-md-block" src="img/separador_vertical.png" alt="">
+                <img class="separador d-block d-md-none" src="img/separador.png"></img>
+            </div>
+            <div class="col-12 col-md-5 raleway">
                 <h2>Horario de atención</h2>
                 <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
                 <p>Sábados: 10:00 AM - 2:00 PM</p>

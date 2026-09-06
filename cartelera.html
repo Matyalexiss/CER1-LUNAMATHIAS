@@ -26,13 +26,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link invertircolor" href="cartelera.html">Cartelera</a>
+                    <a class="nav-link invertircolor" href="cartelera.html">Cartelera de actividades</a>
                     <a class="nav-link invertircolor" href="actividades.html">Inscripción a Actividades</a>
                 </div>
                 </div>
             </div>
         </nav>
-        <article class="row">
+        <article id="cartelera-article" class="row m-0">
             <section class="col-12">
                 <p> 
                     <h2 id="titulocartelera">Cartelera de Actividades</h2>
@@ -85,7 +85,7 @@
                         <p class="card-text">Apoyo a bandas urbanas en el centro de la ciudad con puertas abiertas para todo publico</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Categoria: Concierto</li>
+                        <li class="list-group-item">Categoria: Musica</li>
                         <li class="list-group-item">Fecha: 5 de septiembre 2026</li>
                     </ul>
                 </div>
@@ -95,7 +95,7 @@
                     <img src="img/actividades6.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ciclismo</h5>
-                        <p class="card-text">Viaje de hacia Avda. Stella Maris saliendo del Puerto hacia Sajonia, invitacion a todo publico.</p>
+                        <p class="card-text">Viaje hacia Avda. Stella Maris saliendo del Puerto hacia Sajonia, invitacion a todo publico.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Categoria: Deportes</li>
@@ -116,18 +116,22 @@
                     </ul>
                 </div>
             </section>
-            <section class="col-12 ">
-                <img id="actividad-acceso-libre" src="img/actividades.jpg" alt="">
-            </section>
+            <aside class="col-12 contenedor-scroll px-0">
+                <img id="actividad-acceso-libre" src="img/actividades.jpg" alt="Promo">
+            </aside>
         </article>
-        <footer class="row m-0">
-            <div class="col-6 raleway">
+        <footer class="row m-0 px-0">
+            <div class="col-12 col-md-5 raleway">
                 <h2>Informacion de contacto</h2>
                 <p>Dirección: Calle Falsa 123, Valparaiso, Chile</p>
                 <p>Teléfono: +56 9 XXXX XXXX</p>
                 <p>Correo electrónico: info@centroculturalpuertoabierto.cl</p>
             </div>
-            <div class="col-6 raleway">
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                <img class="separador-vertical d-none d-md-block" src="img/separador_vertical.png" alt="">
+                <img class="separador d-block d-md-none" src="img/separador.png"></img>
+            </div>
+            <div class="col-12 col-md-5 raleway">
                 <h2>Horario de atención</h2>
                 <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
                 <p>Sábados: 10:00 AM - 2:00 PM</p>
