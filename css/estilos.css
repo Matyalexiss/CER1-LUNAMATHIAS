@@ -140,6 +140,18 @@ h1{
     width: 100%;
     background-color: #9fd364;
 }
+#iconfacebook{
+    color: #2a79b9;
+}
+#iconinstagram{
+    color: #ffffff;
+}
+#iconreddit{
+    color: #ff7518;
+}
+#iconwhatsapp{
+    color: #198f3c;
+}
 .condiciones{
     padding-left:30px;
     padding-bottom: 10px;
@@ -149,4 +161,8 @@ h1{
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+}
+.icono {
+    font-size: 50px; 
+    margin-bottom: 50px;
 }
