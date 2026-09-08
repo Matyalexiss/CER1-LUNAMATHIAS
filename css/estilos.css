@@ -26,6 +26,9 @@ h1{
     padding-top: 30px;
     font-weight: 700;
 }
+h2{
+    font-weight: 600;
+}
 #cartelera-article{
     background-color: #ec493a;
 }

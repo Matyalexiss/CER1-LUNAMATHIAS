@@ -31,7 +31,7 @@
                 </div>
             </div>
         </nav>
-        <main class="row">
+        <main class="row m-0">
             <section class="col-12 " id="inscripcion-actividades">
                 <h2 class="monserrat">Inscripción a Actividades</h2>
                 <p>Por favor, ingrese todos los datos solicitados y acepte la condicion de participacion.</p>
@@ -42,21 +42,21 @@
                 <form action="exito.html" class="raleway">
                     <div class="mb-3">
                         <label for="Nombre-completo" class="form-label monserrat">Nombre completo</label>
-                        <input type="text" class="form-control" id="Nombre-completo" aria-describedby="emailHelp" required>
+                        <input type="text" class="form-control" id="Nombre-completo" name="nombre-completo" required>
                     </div>
                     
                     <div class="mb-3">
                         <label for="Correo" class="form-label monserrat">Correo electronico</label>
-                        <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp" required>
+                        <input type="email" class="form-control" id="Correo" name="correo" required>
                     </div>
                     <div class="mb-3">
                         <label for="Telefono" class="form-label monserrat">Telefono</label>
-                        <input type="text" class="form-control" id="Telefono" required>
+                        <input type="tel" class="form-control" id="Telefono" name="telefono" pattern="[0-9+ ]{7,15}" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Actividad-interes" class="form-label monserrat">Actividad de interés</label>
-                        <select class="form-select" aria-label="Default select example" required>
-                            <option selected>Seleccione una actividad</option>
+                        <label for="actividad-interes" class="form-label monserrat">Actividad de interés</label>
+                        <select class="form-select" id="actividad-interes" name="actividad-interes" required>
+                            <option value="" selected disabled>Seleccione una actividad</option>
                             <option value="1">Mandalas</option>
                             <option value="2">Atrapasueños</option>
                             <option value="3">Feria guasu</option>
@@ -67,14 +67,14 @@
                     </div>
                     <div class="mb-3">
                         <label for="Edad" class="form-label monserrat">Edad</label>
-                        <input type="text" class="form-control" id="Edad" required>
+                        <input type="number" class="form-control" id="Edad" name="edad" min="1" max="130" required>
                     </div>
                     <div class="mb-3">
                         <label for="Comentarios" class="form-label monserrat">Comentarios adicionales</label>
-                        <textarea class="form-control" id="Comentarios" rows="3"></textarea>
+                        <textarea class="form-control" id="Comentarios" name="comentarios" rows="3"></textarea>
                     </div>
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="terminos" required>
+                        <input type="checkbox" class="form-check-input" id="terminos" name="terminos" required>
                         <label class="form-check-label monserrat" for="terminos">Acepto las <a href="condiciones.html" target="_blank" class="link-primary">condiciones</a> de participacion</label>
                     </div>
                     <button type="submit" class="btn btn-warning">Inscribirse</button>
