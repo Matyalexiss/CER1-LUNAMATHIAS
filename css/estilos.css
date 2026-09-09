@@ -1,16 +1,21 @@
+/* --- ESTRUCTURA DE LA PAGINA --- */
+/* Fondo del encabezado (arriba) */
 header{
     background-color: #689F38;
     width: 100%;
 }
+/* Fondo del contenido principal */
 main{
     width: 100%;
     background-color: #DCEDC8;
 }
+/* Fondo y espacio superior del pie de pagina (abajo) */
 footer{
     padding-top: 10px;
     width: 100%;
     background-color: #9fda5c;
 }
+/* Color, fuente y margenes del menu de navegacion */
 nav{
     width: 100%;
     margin:0;
@@ -19,39 +24,51 @@ nav{
     font-weight: 700;
     font-family: 'Segoe UI', sans-serif;
 }
+/* Suaviza las esquinas del formulario */
 form{
     border-radius: 2px;
 }
+/* --- TITULOS --- */
+/* Titulos principales: espacio superior y grosor */
 h1{
     padding-top: 30px;
     font-weight: 700;
 }
+/* Subtitulos: grosor */
 h2{
     font-weight: 600;
 }
+/* --- SECCION ID'S --- */
+/* Fondo de la cartelera */
 #cartelera-article{
     background-color: #ec493a;
 }
+/* Espacio y estilo cursiva para seccion actividades */
 #actividades{
     padding-top: 20px;
     font-style: italic;
 }
+/* Medidas de la imagen arte */
 #arte{
     width: 100%;
     height: 500px;
     padding-bottom: 20px;
 }
+/* Medidas de la imagen artesania */
 #artesania{
     width: 100%;
     height: 500px;
     padding-bottom: 20px;
 }
+/* Medidas, alineacion y color del titulo principal */
 #titulo{
+    color: #FFFFFF;
     text-align: right;
     font-size: 30px;
     font-weight: 700;
     padding-top: 32px;
 }
+/* Medidas, alineacion y color del titulo en cartelera */
 #titulocartelera{
     color: #FFFFFF;
     text-align: left;
@@ -59,12 +76,14 @@ h2{
     font-weight: 700;
     padding-left: 5px;
 }
+/* Ajusta la imagen de acceso libre a su contenedor sin deformarse */
 #actividad-acceso-libre {
     width: 100%;
     height: auto;
     margin: 0; 
     object-fit: cover;
 }
+/* Fondo y margenes del formulario de inscripcion */
 #inscripcion-actividades{
     padding-top: 10px;
     padding-left:30px;
@@ -72,6 +91,7 @@ h2{
     width: 100%;
     background-color: #9fd364;
 }
+/* --- COLORES REDES SOCIALES PIE DE PAGINA --- */
 #iconfacebook{
     color: #2a79b9;
 }
@@ -84,35 +104,42 @@ h2{
 #iconwhatsapp{
     color: #198f3c;
 }
+/* --- CLASES GENERALES --- */
+/* Espaciado del texto de condiciones */
 .condiciones{
     padding-left:30px;
     padding-bottom: 10px;
     width: 100%;
 }
+/* Medidas de los iconos (ej: redes sociales) */
 .icono {
     font-size: 50px; 
     margin-bottom: 50px;
 }
+/* Ancho maximo de las tarjetas en cartelera */
 .cartelera {
     max-width: 450px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 }
+/* Medidas de las imagenes dentro de cartelera */
 .cartelera img {
     width: 100%;
     height: 250px;
 }
-
+/* Medidas de las imagenes promocionales grandes */
 .banner{
     width: 100%;
     height: 400px;
 }
+/* Medidas y alineacion de los parrafos */
 .p{  
     padding-top: 20px;
     font-size: 18px;
     text-align: left;
 }
+/* Medidas y margenes del logo */
 .logo{
     width: 150px;
     height: 100px;  
@@ -121,6 +148,7 @@ h2{
     padding-bottom: 10px;
 }
 
+/* --- TIPOGRAFIAS --- */
 .monserrat{
     font-family: 'Montserrat', sans-serif;
     color: #212121;
@@ -131,12 +159,14 @@ h2{
     color: #212121;
     font-weight: normal;
 }
+/* --- ALINEACION --- */
 .centro{
     text-align: center;
 }
 .derecha{
     text-align: right;
 }
+/* --- SEPARADORES --- */
 .separador{
     border: none;               
     height: 4px;              
@@ -153,6 +183,7 @@ h2{
     border-radius: 2px; 
     display: block;
 }
+/* Flex para centrar contenido vertical y horizontalmente */
 .texto-centrado{
     display:flex;
     flex-direction: column;
@@ -160,7 +191,4 @@ h2{
     text-align: left;
     padding: 20px;
     font-size: 18px;
-}
-.invertircolor{
-    filter:invert();
 }
